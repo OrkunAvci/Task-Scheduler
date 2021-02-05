@@ -24,7 +24,6 @@ CommandBlock::CommandBlock(std::chrono::seconds sec, std::string command, std::s
 	this->sec = sec;
 	this->command = command;
 	this->arguments = arguments;
-	configureTime();
 }
 
 CommandBlock::~CommandBlock(){}
