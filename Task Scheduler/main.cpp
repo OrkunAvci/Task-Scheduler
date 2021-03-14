@@ -7,10 +7,11 @@ using namespace std;
 //	Playing around with time:
 int main()
 {
-	CommandBlock killSpotify(chrono::seconds(1), "taskkill", "/f /im Spotify.exe");
-	killSpotify.start();
-	killSpotify.~CommandBlock();
+	CommandBlock killSpot(chrono::seconds(0), "taskkill", "/f /im Spotify*");
 
-	system("pause");
+	killSpot.start();
+
+	killSpot.~CommandBlock();
+
 	return 0;
 }
