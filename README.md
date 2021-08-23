@@ -13,8 +13,8 @@ This is designed to be tiny and lightweight so no development towards adding ext
 - Open up the project with VS Studio or the main.cpp in your favorite code editor.
 
 - Create as mny CommandBlock objects as you need:
-- 	- Supply the command you want to run,
-- 	- Supply the delay for the command.
+  	- Supply the command you want to run,
+  	- Supply the delay for the command.
 
 - Compile the program to get an executeable.
 
