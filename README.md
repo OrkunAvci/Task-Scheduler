@@ -12,7 +12,7 @@ This is designed to be tiny and lightweight so no development towards adding ext
 
 - Open up the project with VS Studio or the main.cpp in your favorite code editor.
 
-- Create as mny CommandBlock objects as you need:
+- Create as many CommandBlock objects as you need:
   	- Supply the command you want to run,
   	- Supply the delay for the command.
 
@@ -24,11 +24,11 @@ Now you have a little package that does whatever you put in it. You can put it i
 
 ## Examples from my own workflow
 
-Downloading a movie and a game at the same time? Kill Steam and setup the program to run Steam when the movie download ends. Or even better chain it up with killing Steam and running Spotify when Steam download ends. You can sleep while the PC works for you!
+Downloading a movie and a game at the same time? Kill Steam and setup the program to run Steam when the movie download ends. Or even better yet, chain it up with killing Steam  when game downloads and run Spotify afterwards. You can sleep while the PC works for you!
 
 Spofity doesn't always shut off immediately when you tell it to exit. No program can ignore kill command however, so you can enforce kill signals with this program.
 
-Logitech Software applies macros to connected devices. But when devices disconnect and then reconnect sometimes it doesn't re-apply the macros. Another use-case is killing the Logitech Software and running it again.
+Logitech Software applies macros to connected devices. But when devices disconnect and then reconnect it sometimes doesn't re-apply the macros. Another use-case is killing the Logitech Software and running it again.
 
 ---
 
